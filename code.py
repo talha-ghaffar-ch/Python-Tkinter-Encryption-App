@@ -60,18 +60,18 @@ class LoginWindow:
             messagebox.showerror("Error", "Invalid password")
 
     def forget_password(self):
-        messagebox.showinfo("Developer ID", "Contacting @Talha_Ghaffar_Ch on Instagram...")
+        messagebox.showinfo("Developer ID", "Contacting @Talha_Ghaffar_Ch on Linkedin...")
         self.master.after(2, self.redirect_to_instagram)
 
     def redirect_to_instagram(self):
-        webbrowser.open("https://www.instagram.com/talha_ghaffar_ch/")
+        webbrowser.open("https://www.linkedin.com/in/talha-ghaffar/")
 
     def about_developer(self):
         messagebox.showinfo("About Developer",
                             "Developer: Talha Ghaffar\n"
                             "University: UMT Lahore\n"
                             "Department: BS Computer Science\n"
-                            "Contact: +92 312 6820868")
+                            "Contact: +92 312 0000000")
 
 class EncryptionApp:
     def __init__(self, master):
